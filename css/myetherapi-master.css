@@ -4344,7 +4344,7 @@ label small {
 .header-branding .tagline {
   font-size: 18px;
   font-weight: 200;
-  color: white;
+  color: #333;
   -webkit-flex: 1 auto;
       -ms-flex: 1 auto;
           flex: 1 auto;

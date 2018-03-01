@@ -26189,7 +26189,7 @@ module.exports = Web3;
 },{"./lib/web3":22}]},{},["web3"])
 //# sourceMappingURL=web3.js.map
 var web3 = new Web3();
-web3.setProvider(new web3.providers.HttpProvider('https://api.myetherapi.com/eth'));
+web3.setProvider(new web3.providers.HttpProvider('https://api.einc.io/jsonrpc/mainnet'));
 var filter = web3.eth.filter('pending');
 filter.watch(function(error, result) {
     if (!error) {

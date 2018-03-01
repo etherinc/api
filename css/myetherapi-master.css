@@ -4251,8 +4251,7 @@ label small {
   background: #163151;
 }
 .bg-gradient {
-  background: #163151;
-  background: linear-gradient(149deg, #132a45, #143a56, #21a4ce, #19b4ad);
+  background: #fff;
 }
 .bg-gray-lighter {
   background-color: #ECECEC;
@@ -4307,7 +4306,7 @@ label small {
   max-width: 100%;
 }
 .header-branding {
-  color: white;
+  color: #333;
   padding: 0;
 }
 @media screen and (max-width: 900px) {

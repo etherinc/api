@@ -4308,6 +4308,7 @@ label small {
 .header-branding {
   color: #333;
   padding: 0;
+  border-bottom: 1px solid #e1e8ed;
 }
 @media screen and (max-width: 900px) {
   .header-branding {

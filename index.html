@@ -121,7 +121,7 @@
         <h5>Example 1</h5>
         <pre><code>
     // Request
-    curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8", "latest"],"id":1}' https://api.myetherapi.com/eth
+    curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8", "latest"],"id":1}' https://api.einc.io/jsonrpc/mainnet
 
     // Result
     {
@@ -134,7 +134,7 @@
         <h5>Example 1</h5>
         <pre><code>
     var web3 = new Web3();
-    web3.setProvider(new web3.providers.HttpProvider('https://api.myetherapi.com/eth'));
+    web3.setProvider(new web3.providers.HttpProvider('https://api.einc.io/jsonrpc/mainnet'));
     web3.eth.getBalance("0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8").toString();
 
     //Result
@@ -143,7 +143,7 @@
         <h5>Example 2</h5>
         <pre><code>
     var web3 = new Web3();
-    web3.setProvider(new web3.providers.HttpProvider('https://api.myetherapi.com/eth'));
+    web3.setProvider(new web3.providers.HttpProvider('https://api.einc.io/jsonrpc/mainnet'));
     var filter = web3.eth.filter('pending');
     filter.watch(function(error, result) {
       if (!error) {
@@ -159,7 +159,7 @@
         <h5>Example 3</h5>
         <pre><code>
     var web3 = new Web3();
-    web3.setProvider(new web3.providers.HttpProvider('https://api.myetherapi.com/eth'));
+    web3.setProvider(new web3.providers.HttpProvider('https://api.einc.io/jsonrpc/mainnet'));
     var filter = web3.eth.filter('latest');
     filter.watch(function(error, result) {
       if (!error) {
